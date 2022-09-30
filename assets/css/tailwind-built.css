@@ -65,38 +65,6 @@ body {
     font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */
     'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
-.demo-form{
-    background-color: white;
-    width: 100%;
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 5px grey;
-}
-.demo-form div{
-    display: inline-block;
-}
-.demo-form p{
-    font-weight: bold;
-    text-align: center;
-    color: #3b82f6;
-}
-.demo-form input{
-    width: 100%;
-    border-radius: 25px;
-    border: none;
-    height: 40px;
-    background-color: #e1efff;
-    margin-bottom: 10px;
-}
-.demo-form button{
-    width: 100%;
-    border-radius: 25px;
-    color: white;
-    background-color: #3b82f6;
-    height: 40px;
-    margin-top: 10px;
-    border: none;
-}
 /*
 Grouping content
 ================

@@ -3,11 +3,25 @@
     height: 100vh;
     
 }
+@media only screen and (max-width: 1010px){
+    .hero{
+        height: 130vh;
+    }
+  }
+.bg-overlay{
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.307);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
 .bg_video{
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -2;
     object-fit: cover;
 }
 
@@ -33,8 +47,9 @@
   }
 .hero .demo-form p{
     font-weight: bold;
-    text-align: center;
     color: #0062cc;
+    text-align: center;
+    font-size: 1.2rem;
 }
 .hero .demo-form input{
     width: 100%;
