@@ -1,3 +1,13 @@
+ /* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+html{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 .hero{
     width: 100%;
     height: 100vh;
@@ -67,4 +77,82 @@
     height: 40px;
     margin-top: 10px;
     border: none;
+}
+
+.fact-area .fact-box {
+    box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
+}
+
+.single-fact {
+    text-align: center;
+    margin: 45px 0;
+    padding: 8px 16px;
+    border-right: 1px solid #ddd;
+}
+
+@media (max-width: 991px) {
+    .single-fact {
+        margin: 10px 0;
+        padding: 8px 32px;
+    }
+}
+
+.single-fact:last-child {
+    border-right: 0;
+}
+
+.single-fact h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 991px) {
+    .single-fact h2 {
+        font-size: 25px;
+    }
+}
+
+.single-fact p {
+    margin: 0;
+    font-size: 14px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col,
+.col-12,
+.col-6,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-8,
+.col-lg-9,
+.col-md-12,
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-8,
+.col-md-9 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%
 }
