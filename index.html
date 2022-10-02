@@ -11,6 +11,9 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/tailwind-built.css?v=2.0" />
     <link rel="stylesheet" href="assets/css/customeStyle.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-white text-body font-body"> <!--oncontextmenu="return false"-->
@@ -70,7 +73,7 @@
                             </div>
                         </div>
                         <div class="a5 lg:a2u/2 af">
-                            <div class="a2g ae a2d aA[532px] wow fadeInUp" data-wow-delay=".25s">
+                            <div class="a2g ae a2d aA[100px] wow fadeInUp" data-wow-delay=".25s" style="transform: scale(1.1);">
                                 <img src="assets/imgs/placeholders/dashboard.png" alt="hero-image" class="ah a2f" />
                             </div>
                         </div>
@@ -86,26 +89,32 @@
                 <div class="fact-box">
                     <div class="row align-items-center">
                         <div class="col single-fact">
-                            <h2>50+</h2>
+                            <i class="fa-solid fa-building-columns"></i>
+                            <h2>80+</h2>
                             <p>Institues</p>
                         </div>
                         <div class="col single-fact">
+                            <i class="fa-solid fa-graduation-cap"></i>
                             <h2>80K</h2>
                             <p>Enrolled Students</p>
                         </div>
                         <div class="col single-fact">
+                            <i class="fa-solid fa-chalkboard-user"></i>
                             <h2>2500+</h2>
                             <p>Teachers</p>
                         </div>
                         <div class="col single-fact">
+                            <i class="fa-solid fa-building-columns"></i>
                             <h2>15K</h2>
                             <p>Question Bank</p>
                         </div>
                         <div class="col single-fact">
+                            <i class="fa-solid fa-book-open-reader"></i>
                             <h2>500+</h2>
                             <p>Hours of self-study materials</p>
                         </div>
                         <div class="col single-fact">
+                            <i class="fa-solid fa-chalkboard-user"></i>
                             <h2>90K</h2>
                             <p>Hours of Classes</p>
                         </div>
@@ -195,10 +204,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="relative w-full lg:w-1/2 my-12 lg:my-0">
-                        <div class="wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/hpJpShgeHWw" title="Introducing Meetmonk DICE LMS - World's First and Only Fully Integrated LMS Platform" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <img class="absolute top-0 left-0 w-40 -ml-12 -mt-12" style="z-index: -1;" src="assets/imgs/elements/blob-tear.svg" alt="" />
+                    <div class="relative w-full lg:w-1/2 my-12 lg:my-0" >
+                        <div class="wow animate__animated animate__fadeInRight" data-wow-delay=".5s" >
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/hpJpShgeHWw" title="Introducing Meetmonk DICE LMS - World's First and Only Fully Integrated LMS Platform" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 90px;"></iframe>
+                            <img class="absolute top-0 left-0 w-40 -ml-12 -mt-100" style="z-index: -1;" src="assets/imgs/elements/blob-tear.svg" alt="" />
                             <img class="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" style="z-index: -1;" src="assets/imgs/elements/blob-tear.svg" alt="" />
                         </div>
                     </div>
@@ -254,7 +263,7 @@
                             <p class="text-sm text-blueGray-400 leading-relaxed">
                                 <ul style="text-align: left;">
                                     <li>1) While-Label the platform and showcase as your own technology get huge branding boost</li><br>
-                                    <li>2) Remotely reach those out-of station that you could never reach</li>
+                                    <li>2) Remotely reach those out-of stations that you could never reach before</li>
                                 </ul>
                             </p>
                         </div>
@@ -266,7 +275,7 @@
             <div class="container px-4 mx-auto">
                 <div class="text-center mb-16">
                     <h2 class="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                        <span class="text-blue-500">choose</span>
+                        <span class="text-blue-500">Choose</span>
                         <span>your best plan</span>
                     </h2>
                 </div>
@@ -276,7 +285,7 @@
                             <img class="h-20 mb-6 mx-auto" src="assets/imgs/icons/startup.svg" alt="" />
                             <h3 class="mb-2 text-4xl font-bold font-heading">Free</h3>
                             <span class="text-4xl text-blue-500 font-bold">₹0</span>
-                            <p class="mt-2 mb-8 text-blueGray-400">user per month</p>
+                            <p class="mt-2 mb-8 text-blueGray-400">Per student per month</p>
                             <div class="flex flex-col items-center mb-8">
                                 <ul class="text-blueGray-400">
                                     <li class="flex mb-3">
@@ -309,7 +318,7 @@
                             <img class="h-20 mb-6 mx-auto" src="assets/imgs/icons/agency.svg" alt="" />
                             <h3 class="mb-2 text-4xl font-bold font-heading">Premium</h3>
                             <span class="text-4xl font-bold">₹50</span>
-                            <p class="mt-2 mb-8">user per month</p>
+                            <p class="mt-2 mb-8">Per student per month</p>
                             <div class="flex flex-col items-center mb-8">
                                 <ul>
                                     <li class="flex items-center mb-3">
@@ -336,6 +345,12 @@
                                             </svg>
                                         <span>Unlimited homework management</span>
                                     </li>
+                                    <li class="flex items-center" style="margin-top: 10px;">
+                                        <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                            </svg>
+                                        <span>Complete analytics</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div>
@@ -348,7 +363,7 @@
                             <img class="h-20 mb-6 mx-auto" src="assets/imgs/icons/enterprise.svg" alt="" />
                             <h3 class="mb-2 text-4xl font-bold font-heading">Special</h3>
                             <span class="text-4xl text-blue-500 font-bold font-heading">₹75</span>
-                            <p class="mt-2 mb-8 text-blueGray-400">user per month</p>
+                            <p class="mt-2 mb-8 text-blueGray-400">Per student per month</p>
                             <div class="flex flex-col items-center mb-8">
                                 <ul class="text-blueGray-400">
                                     <li class="flex mb-3">
@@ -375,7 +390,7 @@
                                             </svg>
                                         <span>Parent-teacher meetings</span>
                                     </li>
-                                    <li class="flex">
+                                    <li class="flex" style="margin-top: 10px;" >
                                         <svg class="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                             </svg>
