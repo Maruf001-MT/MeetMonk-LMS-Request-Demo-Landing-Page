@@ -58,6 +58,7 @@
     height: 40px;
     background-color: #e1efff;
     margin-bottom: 10px;
+    padding: 0px 10px;
 }
 .hero .demo-form button{
     width: 100%;
